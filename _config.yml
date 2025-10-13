@@ -10,9 +10,6 @@ lang: en
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
 timezone:
-  america/los_angeles:
-    olson: America/Los_Angeles
-    text: (GMT-08:00) Pacific Time (US & Canada)
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
