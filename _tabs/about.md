@@ -4,11 +4,9 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-# About Me
+## Hi, I'm Oliver Hansen
 
-## Hi, I'm [Your Name]! 👋
-
-[Brief introduction - 2-3 sentences about who you are and what you do]
+I'm a senior computer engineering student at George Fox University 
 
 ## My Journey
 
@@ -21,9 +19,9 @@ order: 4
 ### Skills & Technologies
 
 **Proficient:**
-- [Skill 1]
-- [Skill 2]
-- [Skill 3]
+- C programming
+- PCB Design
+- 
 
 **Familiar:**
 - [Skill 4]
@@ -31,7 +29,7 @@ order: 4
 - [Skill 6]
 
 **Currently Learning:**
-- [New skill or technology you're exploring]
+- Web Design!
 
 ## Beyond Work
 
@@ -43,15 +41,10 @@ order: 4
 
 ## Let's Connect!
 
-I'm always open to discussing [your field], new opportunities, or just chatting about shared interests.
-
-**📧 Email:** [your.email@domain.com]
-**💼 LinkedIn:** [Your LinkedIn profile]
-**🐙 GitHub:** [Your GitHub profile]
-[Add other relevant social links]
+I'm always open to discussing positions in embedded 
 
 ---
 
 *"**[Your favorite quote or personal motto]**"*
 
-*Last updated: [Month Year]*
+*Last updated: Oct 2025*
