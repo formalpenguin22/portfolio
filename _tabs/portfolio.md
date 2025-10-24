@@ -1,5 +1,5 @@
 ---
 layout: page
 icon: fas fa-suitcase
-order: 5
+order: 2
 ---
