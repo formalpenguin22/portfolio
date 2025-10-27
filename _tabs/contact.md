@@ -25,6 +25,6 @@ I'm always open to discussing new opportunities, collaborations, or just chattin
 [View My Resume](/assets/documents/oliver_hansen_resume.pdf)  
 [LinkedIn](https://www.linkedin.com/in/ohansen22)  
 [GitHub](https://github.com/formalpenguin22)  
-[Portfolio](/portfolio)
+[Portfolio](/categories/portfolio)
 
 *"Engineering is the art of directing the great sources of power in nature for the use and convenience of man." - Thomas Tredgold*
