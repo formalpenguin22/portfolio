@@ -6,7 +6,7 @@ date: 2025-11-02 12:25 -0800
 category: Portfolio
 tags: Junior
 image:
-  path: /assets/img/haptic_smart_dial.jpg
+  path: /assets/img/embedded_eyeball.jpg
   alt: Final Assembly of my Board
 comments: false
 ---
