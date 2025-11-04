@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pulse Oximeter
-description: 
+description: This Pulse Oximeter Circuit was 
 date: 2025-11-02 12:25 -0800
 category: Portfolio
 tags: Sophomore
