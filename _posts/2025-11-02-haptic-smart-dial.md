@@ -1,13 +1,14 @@
 ---
 layout: post
 title: Haptic Smart Dial
-author: Oliver Hansen
 description: I created a haptic smart dial as an embedded systems project.
 date: 2025-11-02 12:25 -0800
 category: Portfolio
+tags: Junior
 image:
-  path: /assets/img/formalpenguini.png
-  alt: placeholder image
+  path: /assets/img/haptic_smart_dial.jpg
+  alt: Final Assembly of my Board
+comments: false
 ---
 
 ## Project Description
@@ -18,10 +19,29 @@ The key physical features of this device are the high torque 3-phase motor which
 
 The design is still a work in progress, and some implementation details are still being worked out. A couple buttons might be added into the base to allow for a user to actually control the device without a computer. Another design change would be to configure the dial to be a button itself and allow the user to press the entire dial down to engage a small tactile button.
 
+## Project Report Document
+
+{% pdf "/assets/documents/Oliver_Hansen_Embedded_Systems_Project_Document.pdf" no_link%}
+
 ## Block Diagram
 
-![Desktop View](/assets/img/formalpenguini.png){: width="1216" height="1214" }
+![Desktop View](/assets/img/Block%20Diagram%20Embedded.jpg){: width="1111" height="794" }
 
 ## Schematic
 
-{% pdf "/assets/documents/haptic_smart_dial_schematic.pdf" no_link%}
+{% pdf "/assets/documents/Embedded_FinalProject.pdf" no_link%}
+
+## Bill of Materials
+
+{% pdf "/assets/documents/ENGE%20420%20BOM%20-%20Sheet1.pdf" no_link%}
+
+## Accomplishments / Failures
+
+This project was highly ambitious given the amount that needed to be done within a single term. Despite the time constraints and steep learning curves for learning PCB design, power management, and embedded systems programming the final result is something that I would consider by and large to be a successful implementation of my original vision, or at least a good step in that direction. My project covers it all, implementing a full UI with a round LCD, and two mechanical switch buttons. A ring of smart RGB LEDs at the bottom of the dial were also working and displaying brightly at 5V. In fact, the board successfully implemented a 4-layer PCB design with split power planes totaling to 4 separate voltage planes. With thorough measurements, these all operated within a functioning threshold to power each element of the board. This compact design was due to a tight size constraint that I had placed on the project to ensure that the final design would fit in a small case and  be easily operated by the end user.
+
+For as many successes and goals reached, there were just as many failures and frustrations in the design. Because of an incorrect boost converter and a missing linear battery charger IC, my goals for making a fully wireless battery powered device that was rechargeable via USB-C was unable to be fully realized. The good thing is that those two chip failures were localized only to the battery voltage plane, and a simple hot wire across the boost converted allowed the entire board to be powered only by USB. 
+
+One key feature of my board is that the ESP WROOM32 chip was embedded directly onto the PCB, with all programming  logic and serial communication also embedded. Although my computer recognized the board on as COM device, any attempt to actually program the ESP32 via USB failed. Normally this would be a full stop for the project, no programming means no working board, but the show must go on. I removed the micro controller chip from the board and hot wired an ESP32 development board to be able to program the main PCB. 
+
+Lastly, several integral sensors and drivers ultimately weren't able to be diagnosed and implemented. The magnetic position sensor was signaling that it was getting valid data back through serial communication, but no actual values were being measured on the SDA line. Similarly, firmware was flashed to the motor driver module, but the motor did not move. I am not sure if it was software or hardware issues, but as of the finalization of this project those key features were not working. 
+

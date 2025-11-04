@@ -1,10 +1,10 @@
 ---
 # the default layout is 'page'
 icon: fas fa-info-circle
-order: 3
+order: 4
 ---
 
-# Let's Connect
+# Let's Connect!
 
 I'm always open to discussing new opportunities, collaborations, or just chatting about engineering and technology.
 
