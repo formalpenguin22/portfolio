@@ -6,7 +6,7 @@ date: 2025-10-26 15:54 -0700
 category: Portfolio
 tags: Junior
 image:
-  path: /assets/img/breakout.png
+  path: /assets/img/breakout.jpg
   alt: PCB of arduino shield that the game was built upon.
 comments: false
 ---
