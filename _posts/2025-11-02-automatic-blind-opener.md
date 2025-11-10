@@ -15,3 +15,14 @@ comments: false
 
 {% pdf "/assets/documents/MCD_report.pdf" no_link%}
 
+## CAD Drawings
+
+{% pdf "/assets/documents/utilis_simia_CAD.pdf" no_link%}
+
+## Pseudo-Code
+
+{% pdf "/assets/documents/utilis_simia_pscode.pdf" no_link%}
+
+## Bill of Materials
+
+{% pdf "/assets/documents/utilis_simia_BOM.pdf" no_link%}

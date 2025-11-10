@@ -12,3 +12,5 @@ comments: false
 ---
 
 {% include embed/youtube.html id='M38RtpTHOCk' %}
+
+{% pdf "/assets/documents/audio_amp_presentation.pdf" no_link%}
